@@ -4,6 +4,7 @@ uniform float timeScaleFactor = .04;
 
 // Make sure to use a seamless noise texture
 uniform sampler2D noise_texture: repeat_enable, filter_linear;
+uniform bool intense = false;
 
 float localTime() {
 	return TIME * timeScaleFactor;
@@ -57,7 +58,9 @@ void fragment() {
 	
 	float rz = flow(p);
 	vec3 col = vec3(.2, .07, .01) / rz;
-	col = pow(col, vec3(1.4));
+	if (intense) {
+		col = pow(col, vec3(1.4));
+	}
 	
 	COLOR = vec4(col, 1.0);
 }
