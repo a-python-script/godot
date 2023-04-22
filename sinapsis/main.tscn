@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://d1uiwuy4w6r2m"]
+
+[ext_resource type="Shader" path="res://sinapsis.gdshader" id="1_22dke"]
+[ext_resource type="Texture2D" uid="uid://rf67t46wtde2" path="res://icon.svg" id="2_tui7d"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_28p86"]
+render_priority = 0
+shader = ExtResource("1_22dke")
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+material_override = SubResource("ShaderMaterial_28p86")
+texture = ExtResource("2_tui7d")
