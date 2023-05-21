@@ -11,7 +11,7 @@ Code Examples and Shaders for the Godot Game Engine
 <img src="https://github.com/a-python-script/godot/blob/main/fractal-pyramid/preview/shot0.png"  width="400" height="242">
 </p>
 
-### industrial-fog
+### industrial-smoke
 <p align="center">
-<img src="https://github.com/a-python-script/godot/blob/main/industrial-fog/preview/industrial-fog-preview.png"  width="400" height="242">
+<img src="https://github.com/a-python-script/godot/blob/main/industrial-smoke/preview/industrial-smoke-preview.png"  width="400" height="242">
 </p>
